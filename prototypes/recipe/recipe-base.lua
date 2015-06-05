@@ -828,6 +828,32 @@ data:extend({
   }
 },
 
+{
+  type = "recipe",
+  name = "rec-empty-barrel",
+  icon = "__base__/graphics/icons/fluid/empty-barrel.png",
+  category = "recycling",
+  subgroup = "i-reverse-factory",
+  hidden = "true",  
+  energy_required = 30,
+  ingredients = {{"empty-barrel", 1}},
+  result = "steel-plate",
+  result_count = 1
+},
+
+{
+  type = "recipe",
+  name = "rec-crude-oil-barrel",
+  icon = "__base__/graphics/icons/fluid/crude-oil-barrel.png",
+  category = "recycling",
+  subgroup = "i-reverse-factory",
+  hidden = "true",  
+  energy_required = 30,
+  ingredients = {{"crude-oil-barrel", 1}},
+  result = "steel-plate",
+  result_count = 1
+},
+
 --ENERGY
 
 {
@@ -1654,6 +1680,22 @@ data:extend({
     {"iron-gear-wheel", 5},
     {"electronic-circuit", 5},
     {"pipe", 5}
+  }
+},
+
+{
+  type = "recipe",
+  name = "rec-reverse-factory",
+  icon = "__reverse-factory__/graphics/items/reverse-factory.png",
+  category = "recycling",
+  subgroup = "i-reverse-factory",
+  hidden = "true",  
+  energy_required = 30,
+  ingredients = {{"reverse-factory", 1}},
+  results =
+  {
+    {"iron-plate", 30},
+    {"iron-gear-wheel", 15}
   }
 },
 

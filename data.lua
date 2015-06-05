@@ -2,4 +2,4 @@ require "util"
 
 require("base-alter")
 require("prototypes.reverse-factory")
-require("prototypes.recipe")
+require("prototypes.recipe.recipe-base")
