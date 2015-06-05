@@ -1,0 +1,8 @@
+{
+  "name": "reverse-factory",
+  "version": "1.0.0",
+  "title": "Reverse Factory",
+  "author": "Victor Ros (Based on Ricky Ford's work : http://www.rickylford.com)",
+  "description": "This Mod add a new entity (Reverse Factory) allow you to disassemble any elements. At the end of the process you receive all the ressources (minus the fluid) that have been necessary to create the element.",
+  "dependencies": ["base"]
+}
