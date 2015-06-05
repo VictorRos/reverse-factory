@@ -1,5 +1,12 @@
 require "util"
 
 require("base-alter")
-require("prototypes.reverse-factory")
-require("prototypes.recipe.recipe-base")
+
+-- Reverse Factory
+require("prototypes.factory.category")
+require("prototypes.factory.entity")
+require("prototypes.factory.item")
+require("prototypes.factory.recipe")
+require("prototypes.factory.technology")
+
+require("prototypes.reverse-factory-recipe")
