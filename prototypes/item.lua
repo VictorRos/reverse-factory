@@ -3,7 +3,7 @@ data:extend({
 {
     type = "item",
     name = "reverse-factory",
-    icon = "__reverse-factory__/graphics/items/reverse-factory.png",
+    icon = "__realistic-reverse-factory__/graphics/item/reverse-factory.png",
     flags = {"goes-to-quickbar"},
     subgroup = "smelting-machine",
     order = "d[reverse-factory]",

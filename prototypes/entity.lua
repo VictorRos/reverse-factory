@@ -3,7 +3,7 @@ data:extend({
 {
     type = "furnace",
     name = "reverse-factory",
-    icon = "__reverse-factory__/graphics/items/reverse-factory.png",
+    icon = "__realistic-reverse-factory__/graphics/item/reverse-factory.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
@@ -51,7 +51,7 @@ data:extend({
     },
     animation =
     {
-        filename = "__reverse-factory__/graphics/entity/reverse-factory.png",
+        filename = "__realistic-reverse-factory__/graphics/entity/reverse-factory.png",
         priority = "high",
         width = 129,
         height = 100,
@@ -63,7 +63,7 @@ data:extend({
         {
             animation =
             {
-                filename = "__reverse-factory__/graphics/entity/reverse-factory-heater.png",
+                filename = "__realistic-reverse-factory__/graphics/entity/reverse-factory-heater.png",
                 priority = "high",
                 width = 25,
                 height = 15,
