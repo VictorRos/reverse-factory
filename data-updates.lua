@@ -9,7 +9,7 @@ function addRecipes(t_elts)
             if not recipe.category then
                 recipe.category = "crafting"
             end
-            --Check the category : if the element has not a category (default it's "crafting" in the game) or category = "crafting" or "advanced-crafting" we create the recipe
+            --Check the category : if category = "crafting" or "advanced-crafting" we create the recipe
             if recipe.category == "crafting" or recipe.category == "advanced-crafting" then
                 local new_recipe =
                 {
@@ -34,12 +34,12 @@ function addRecipes(t_elts)
 end
 
 --Create recycling recipes
-addRecipes(data.raw.ammo)       --Create recipes for all ammunition
-addRecipes(data.raw.armor)      --Create recipes for all armor
-addRecipes(data.raw.item)       --Create recipes for all item
+addRecipes(data.raw.ammo)       --Create recipes for all ammunitions
+addRecipes(data.raw.armor)      --Create recipes for all armors
+addRecipes(data.raw.item)       --Create recipes for all items
 addRecipes(data.raw.gun)        --Create recipes for all weapons
 addRecipes(data.raw.capsule)    --Create recipes for all capsules
 addRecipes(data.raw.module)     --Create recipes for all modules
 
---Store the new recipes in data
+--Add the new recipes in data
 data:extend(rf_recipes)
