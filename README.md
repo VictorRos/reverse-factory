@@ -1,12 +1,12 @@
-# realistic-reverse-factory
+# reverse-factory
 # Description
-Mod for the game Factorio.  
+It's a mod for the game Factorio which add a new entity : the Reverse Factory.  
   
-Based on the work of Ricky Ford who implemented the mod "Recycling Plant".  
-  
-The Realistic Reverse Factory can disassemble any items in a realism purpose and get back the ressources you needed to create those items.  
-  
-It's "realistic" mod so you can't get back fluids if you needed fluids for the creation of the item you want to disassemble.  
+I based my work on the mod "Recycling Plant".  
+This mod gave the possibilty to disassemble all items of the vanilla's version of Factorio.  
+The Reverse Factory is a new version of the Recycling Plant at the difference that every recipes are dynamically generated.  
+   
+Currently WIP for Factorio 0.12.1   
   
 # Licence
   
