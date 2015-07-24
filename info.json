@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "title": "Reverse Factory",
   "author": "Victor Ros",
-  "description": "https://github.com/VictorRos/realistic-reverse-factory/blob/master/README.md",
+  "description": "https://github.com/VictorRos/reverse-factory/blob/master/README.md",
   "dependencies": ["base"]
 }
