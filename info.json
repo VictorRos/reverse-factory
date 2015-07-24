@@ -1,8 +1,8 @@
 {
-  "name": "realistic-reverse-factory",
+  "name": "reverse-factory",
   "version": "1.0.0",
-  "title": "Realistic Reverse Factory",
-  "author": "Victor Ros (Based on Ricky Ford's work : http://www.rickylford.com)",
+  "title": "Reverse Factory",
+  "author": "Victor Ros",
   "description": "https://github.com/VictorRos/realistic-reverse-factory/blob/master/README.md",
   "dependencies": ["base"]
 }
