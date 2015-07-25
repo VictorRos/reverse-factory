@@ -1,8 +1,8 @@
 {
   "name": "reverse-factory",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Reverse Factory",
   "author": "Victor Ros",
   "description": "https://github.com/VictorRos/reverse-factory/blob/master/README.md",
-  "dependencies": ["base"]
+  "dependencies": ["base >= 0.12.1"]
 }

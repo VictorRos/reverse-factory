@@ -3,7 +3,7 @@ data:extend({
 {
     type = "technology",
     name = "reverse-factory",
-    icon = "__realistic-reverse-factory__/graphics/technology/reverse-factory.png",
+    icon = "__reverse-factory__/graphics/technology/reverse-factory.png",
     prerequisites = {"advanced-material-processing"},
     effects =
     {
@@ -19,7 +19,6 @@ data:extend({
         {
             {"science-pack-1", 1},
             {"science-pack-2", 1},
-            --{"science-pack-3", 1}
         },
         time = 15
     }

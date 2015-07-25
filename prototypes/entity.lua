@@ -3,7 +3,7 @@ data:extend({
 {
     type = "furnace",
     name = "reverse-factory",
-    icon = "__realistic-reverse-factory__/graphics/item/reverse-factory.png",
+    icon = "__reverse-factory__/graphics/item/reverse-factory.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
@@ -12,7 +12,7 @@ data:extend({
     },
     max_health = 250,
     corpse = "big-remnants",
-    dying_explosion = "huge-explosion",
+    dying_explosion = "medium-explosion",
     light =
     {
         intensity = 1,
@@ -30,8 +30,8 @@ data:extend({
     module_slots = 3,
     allowed_effects = {"consumption", "speed", "pollution"},
     crafting_categories = {"recycling"},
-    result_inventory_size = 5,
-    crafting_speed = 25,
+    result_inventory_size = 8,
+    crafting_speed = 30,
     energy_usage = "100kW",
     source_inventory_size = 1,
     energy_source =
@@ -51,7 +51,7 @@ data:extend({
     },
     animation =
     {
-        filename = "__realistic-reverse-factory__/graphics/entity/reverse-factory.png",
+        filename = "__reverse-factory__/graphics/entity/reverse-factory.png",
         priority = "high",
         width = 129,
         height = 100,
@@ -63,7 +63,7 @@ data:extend({
         {
             animation =
             {
-                filename = "__realistic-reverse-factory__/graphics/entity/reverse-factory-heater.png",
+                filename = "__reverse-factory__/graphics/entity/reverse-factory-heater.png",
                 priority = "high",
                 width = 25,
                 height = 15,
