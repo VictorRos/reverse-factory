@@ -4,5 +4,5 @@
   "title": "Reverse Factory",
   "author": "Victor Ros",
   "description": "https://github.com/VictorRos/reverse-factory/blob/master/README.md",
-  "dependencies": ["base >= 0.12.1"]
+  "dependencies": ["base >= 0.12"]
 }
