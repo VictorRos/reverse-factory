@@ -20,6 +20,18 @@ Tested mods :
   * Power 1.1.0
   * War 1.1.0
 * TreeFarm Lite 0.2.0
+* Bob's mods
+  * bobassembly 0.12.1
+  * bobelecoveride 0.12.0
+  * bobenemies 0.12.0
+  * boblogistics 0.12.1
+  * bobmining 0.12.1
+  * bobmodules 0.12.1
+  * bobores 0.12.1
+  * bobplates 0.12.1
+  * bobpower 0.12.1
+  * bobtech 0.12.1
+  * bobwarfare 0.12.1
   
 # License
   
