@@ -30,7 +30,7 @@ data:extend({
     module_slots = 3,
     allowed_effects = {"consumption", "speed", "pollution"},
     crafting_categories = {"recycling"},
-    result_inventory_size = 8,
+    result_inventory_size = 10,
     crafting_speed = 30,
     energy_usage = "100kW",
     source_inventory_size = 1,
