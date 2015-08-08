@@ -1,15 +1,15 @@
 --Initialisation
 --rf_recipes will contain all recipes that the reverse factory needs to know to disassemble the items
 --acceptedCategories contains all the recipes accepted by the reverse factory
---suffix allows the mod to cactch Yuoki recipe
+--yuokiSuffix allows the mod to catch Yuoki recipes
 local rf_recipes = {}
 local acceptedCategories = {"crafting", "advanced-crafting", "yuoki-formpress-recipe", "yuoki-wonder-recipe"}
-local suffix = "-recipe"
+local yuokiSuffix = "-recipe"
 
 function addRecipes(t_elts)
     for elt_name, elt in pairs(t_elts) do
         --Get Recipe
-        local recipe = data.raw.recipe[elt_name] and data.raw.recipe[elt_name] or data.raw.recipe[elt_name .. suffix]
+        local recipe = data.raw.recipe[elt_name] and data.raw.recipe[elt_name] or data.raw.recipe[elt_name .. yuokiSuffix]
         --After the search of the recipe if recipe is sill not nil, we add the reverse factory recipe
         if recipe then
             --Set default value for recipe without category property (default value = "crafting")
@@ -18,7 +18,7 @@ function addRecipes(t_elts)
             for _, acceptedCategory in pairs(acceptedCategories) do
                 if recipe.category == acceptedCategory then
                     local count = recipe.result_count and recipe.result_count or 1
-                    local name = recipe.result and recipe.result or recipe.name
+                    local name = string.gsub(recipe.name, yuokiSuffix, "")
                     local new_recipe =
                     {
                         type = "recipe",

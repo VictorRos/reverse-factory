@@ -12,26 +12,28 @@ Currently available and working for Factorio __0.12.x__
 For basic mods, I can't garantee but there should be no problem to generate the recipes.  
 But for big mods that's another matter.  
   
-Tested mods :  
-* Yuoki 0.2.31
+Mods I personally tested :  
+* Yuoki
+  * Yuoki Industries
+  * Yuoki Engines
 * DyTech
-  * CORE 1.2.0
-  * Machine 1.1.0
-  * Power 1.1.0
-  * War 1.1.0
-* TreeFarm Lite 0.2.0
+  * CORE
+  * Machine
+  * Power
+  * War
+* TreeFarm Lite
 * Bob's mods
-  * bobassembly 0.12.1
-  * bobelecoveride 0.12.0
-  * bobenemies 0.12.0
-  * boblogistics 0.12.1
-  * bobmining 0.12.1
-  * bobmodules 0.12.1
-  * bobores 0.12.1
-  * bobplates 0.12.1
-  * bobpower 0.12.1
-  * bobtech 0.12.1
-  * bobwarfare 0.12.1
+  * bobassembly
+  * bobelecoveride
+  * bobenemies
+  * boblogistics
+  * bobmining
+  * bobmodules
+  * bobores
+  * bobplates
+  * bobpower
+  * bobtech
+  * bobwarfare
   
 # License
   
