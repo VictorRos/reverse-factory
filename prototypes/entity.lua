@@ -27,7 +27,6 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_slots = 3,
     allowed_effects = {"consumption", "speed", "pollution"},
     crafting_categories = {"recycling"},
     result_inventory_size = 10,
