@@ -45,12 +45,14 @@ function addRecipes(t_elts)
 end
 
 --Create recycling recipes
-addRecipes(data.raw.ammo)       --Create recipes for all ammunitions
-addRecipes(data.raw.armor)      --Create recipes for all armors
-addRecipes(data.raw.item)       --Create recipes for all items
-addRecipes(data.raw.gun)        --Create recipes for all weapons
-addRecipes(data.raw.capsule)    --Create recipes for all capsules
-addRecipes(data.raw.module)     --Create recipes for all modules
+addRecipes(data.raw.ammo)           --Create recipes for all ammunitions
+addRecipes(data.raw.armor)          --Create recipes for all armors
+addRecipes(data.raw.item)           --Create recipes for all items
+addRecipes(data.raw.gun)            --Create recipes for all weapons
+addRecipes(data.raw.capsule)        --Create recipes for all capsules
+addRecipes(data.raw.module)         --Create recipes for all modules
+addRecipes(data.raw["mining-tool"]) --Create recipes for all mining tools
+addRecipes(data.raw["repair-tool"]) --Create recipes for all repair tools
 
 --Add the new recipes in data
 data:extend(rf_recipes)
