@@ -37,7 +37,6 @@ Mods I personally tested :
   
 # License
   
-This mod is under the [MIT License][license]
+This mod has no license.
 
-[license]: http://opensource.org/licenses/MIT
 [recycling_plant]: http://www.factorioforums.com/forum/viewtopic.php?f=87&t=10247
