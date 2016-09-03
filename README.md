@@ -7,7 +7,7 @@ Therefore, the entity is still working as a furnace. Thereby, I take the decisio
   
 The __Reverse Factory__ is a new version of the __Recycling Plant__ at the difference that every recipes of every mods are dynamically generated.  
    
-Currently available and working for Factorio __0.12.x__   
+Currently available and working for Factorio __0.13.x__   
   
 For basic mods, I can't garantee but there should be no problem to generate the recipes.  
 But for big mods that's another matter.  

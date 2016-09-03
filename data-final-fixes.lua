@@ -10,8 +10,9 @@ function addRecipes(t_elts)
     for elt_name, elt in pairs(t_elts) do
         --Get Recipe
         local recipe = data.raw.recipe[elt_name] and data.raw.recipe[elt_name] or data.raw.recipe[elt_name .. yuokiSuffix]
-        --After the search of the recipe if recipe is sill not nil, we add the reverse factory recipe
-        if recipe then
+        --After the search of the recipe, if recipe is sill not nil AND recipe has ingredients (can't uncraft into nothing),
+        --We add the reverse factory recipe
+        if recipe and recipe.ingredients then
             --Set default value for recipe without category property (default value = "crafting")
             recipe.category = recipe.category and recipe.category or "crafting"
             --Check accepted categories

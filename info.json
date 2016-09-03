@@ -1,8 +1,9 @@
 {
   "name": "reverse-factory",
-  "version": "1.1.5",
+  "factorio_version": "0.13",
+  "version": "1.2.0",
   "title": "Reverse Factory",
   "author": "Victor Ros",
-  "description": "https://github.com/VictorRos/reverse-factory/blob/master/README.md",
-  "dependencies": ["base >= 0.12"]
+  "description": "The Reverse Factory can disassemble most of items in a realism purpose and get back the ressources you needed to create those items. It's \"realistic\" mod so you can't get back fluids if you needed fluids for the creation of the item you want to disassemble.",
+  "dependencies": ["base >= 0.13"]
 }
